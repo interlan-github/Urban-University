@@ -32,10 +32,10 @@ def send_email(message, recipient, sender = "university.help@gmail.com"):
     sender_domain = sender.split('.')[-1]
     if sender_domain not in ALLOW_DOMAINS:
         return error_message
-    
+
     if sender == recipient:
         return "Нельзя отправить письмо самому себе!"
-    
+
     if sender == 'university.help@gmail.com':
         return "Письмо успешно отправлено с адреса "+sender+" на адрес "+recipient+"."
     return "НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса "+sender+" на адрес "+recipient+"."

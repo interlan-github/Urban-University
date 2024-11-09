@@ -19,7 +19,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 primes = []
 not_primes = []
 
-def is_prime (number):
+def is_prime(number):
     if number > 1:
         for i in range(2, (number//2)+1):
             if (number % i) == 0:

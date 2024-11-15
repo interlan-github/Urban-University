@@ -38,9 +38,3 @@ print(result1)
 print(result2)
 print(result3)
 print(result4)
-
-# Вывод на консоль:
-# 23.0
-# Ошибка
-# 7.0
-# inf

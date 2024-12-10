@@ -22,8 +22,8 @@ for file in txt_file_list:
 
 print ('Чистый словарь уникальных слов:' + str(dictionary))
 
-# Второй проход поиск по тексту
-search_word = 'solr'
+# Второй проход поиск по тексту (Но у нас же просто занятия по работе с файлами, и я типа умею)
+search_word = 'solr' #Тут можно уже со словарем играть, но есть более простые решения, чем этот изврат
 for file in txt_file_list:
     with open(file, encoding='UTF8') as file:
         for line in file:

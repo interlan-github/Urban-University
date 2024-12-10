@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 info = [
-    'Text for tell.',
+    'Нафига вообще этот курсор нужен.',
     'Используйте кодировку utf-8.',
     'Because there are 2 languages!',
     'Спасибо!'

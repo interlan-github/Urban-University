@@ -10,7 +10,6 @@ from datetime import datetime
 
 for dir, dirs, files in os.walk('.'+os.sep):
     for name in files:
-        f_type = 'Файл'
         full_name = os.path.join(dir, name)
         m_time = os.path.getmtime(full_name)
         m_time_str = datetime.fromtimestamp(m_time).strftime('%Y-%m-%d %H:%M:%S')
